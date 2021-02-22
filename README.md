@@ -20,4 +20,4 @@ to take the job
 
 For R part, the use of ggplot to plot Frequency vs. Timeline, etc.
 
-For SQL part, maybe the use of MySQL and some other database management software/system (habase)
+For SQL part, maybe the use of MySQL and some other database management software/system (hbase)
