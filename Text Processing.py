@@ -37,7 +37,8 @@ from nltk.tokenize import word_tokenize
 
 tweet = 'RT @marcobonzanini: just an example! :D http://example.com #NLP'
 print(word_tokenize(tweet))
-# ['RT', '@', 'marcobonzanini', ':', 'just', 'an', 'example', '!', ':', 'D', 'http', ':', '//example.com', '#', 'NLP']
+# ['RT', '@', 'marcobonzanini', ':', 'just', 'an', 'example',
+# '!', ':', 'D', 'http', ':', '//example.com', '#', 'NLP']
 
 # 一些英文词汇无法被很好捕捉
 # 引入正则表达式模组

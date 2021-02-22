@@ -46,3 +46,8 @@ terms_hash = [term for term in preprocess(tweet['text'])
 terms_only = [term for term in preprocess(tweet['text'])
               if term not in stop and
               not term.startswith(('#', '@'))]
+
+# from nltk import bigrams
+#
+# term_bigram = bigrams(terms_stop)
+# 暂时没有找到bigram的作用故不做实验和跟进
