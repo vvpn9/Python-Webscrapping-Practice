@@ -51,3 +51,5 @@ terms_only = [term for term in preprocess(tweet['text'])
 #
 # term_bigram = bigrams(terms_stop)
 # 暂时没有找到bigram的作用故不做实验和跟进
+
+# bigrams可以用来查找相关性比较高的关键词（成对出现）
