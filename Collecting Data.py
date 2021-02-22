@@ -2,7 +2,6 @@
 # 这里开始模仿twitter爬虫开始制作
 # pip3 install tweepy == 3.3
 
-######################################################################
 # 获取数据
 # 利用OAuth验证
 import tweepy
@@ -43,9 +42,7 @@ for tweet in tweepy.Cursor(api.user_timeline).items():
     process_or_store(tweet._json)
 
 # 如此这般，我们可以讲自己或者其他所有人（理论上）的所有推特内容保存为jason格式
-######################################################################
 
-######################################################################
 # 数据的持续获取（串流）
 # 我们需要调用streaming api
 from tweepy import Stream
@@ -70,4 +67,4 @@ class MyListener(StreamListener):
 
 twitter_stream = Stream(auth, MyListener())
 twitter_stream.filter(track=['#python'])
-######################################################################
+
