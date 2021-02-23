@@ -75,3 +75,6 @@ print("#SCO: %f" % semantic_orientation['#sco'])
 print("#ENG: %f" % semantic_orientation['#eng'])
 print("#WAL: %f" % semantic_orientation['#wal'])
 print("#IRE: %f" % semantic_orientation['#ire'])
+
+# 一些局限性，PMI方法很简单也很直观，但不够完备
+# 同时穷举每一个队伍的各种名字会更好
