@@ -2,7 +2,7 @@ import scrapy
 
 
 class DoubanmovieSpider(scrapy.Spider):
-    name = 'doubanMovie'
+    name = 'doubanmovie'
     allowed_domains = ['movie.douban.com']
     start_urls = ['http://movie.douban.com/']
 
