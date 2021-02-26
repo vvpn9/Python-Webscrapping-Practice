@@ -1,5 +1,5 @@
 # 安装scrapy和pymongo
-# 基于macos
+# 基于macOS Big Sur Version 11.2.1
 
 import os
 

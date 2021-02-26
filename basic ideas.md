@@ -1,0 +1,1 @@
+常见http请求方式有两种 get和post
